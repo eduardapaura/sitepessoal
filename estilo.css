@@ -1,0 +1,170 @@
+/* Pagina Inicial */
+body {
+    display: flex;
+    flex-direction: column; /* Ajusta a direção da disposição dos elementos */
+    align-items: flex-start; /* Alinha os elementos no início do eixo transversal */
+    background-color: black;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* Estilos para o conteúdo principal */
+.conteudo {
+    margin-left: 20px;
+    margin-bottom: 20px; /* Adiciona espaço abaixo do conteúdo */
+}
+h2 {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* Espaçamento entre os parágrafos */
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilos para o container */
+.container {
+    max-width: 90%; /* Tamanho da tela */
+    margin: 0 auto; /* Centralização*/
+    text-align: justify;
+}
+
+/* Espaçamento entre parágrafos */
+p {
+    margin-bottom: 2vw;
+}
+
+/* Contato */
+
+/* Estilos para a página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 20px;
+}
+
+/* Estilos para o formulário */
+#formulario {
+    margin-top: 50px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#formulario label {
+    color: black; /* Texto das etiquetas */
+}
+
+#formulario input[type="text"],
+#formulario input[type="email"],
+#formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulario textarea {
+    height: 150px;
+}
+
+#formulario input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilos para os cabeçalhos */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Adiciona espaçamento entre os cabeçalhos */
+h3 {
+    margin-top: 20px;
+}
+
+/* Estilizando os links */
+.links ul {
+    list-style: none; /* Remove os marcadores de lista padrão */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    text-align: center; /* Centraliza os links */
+}
+
+.links li {
+    display: inline; /* Faz os itens da lista aparecerem na mesma linha */
+    margin-right: 20px; /* Adiciona espaçamento entre os itens */
+}
+
+.links a {
+    color: white; /* Cor dos links */
+    text-decoration: underline; /* Adiciona sublinhado */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 1.2em; /* Tamanho da fonte */
+    transition: color 0.3s; /* Adiciona uma transição suave para a cor ao passar o mouse */
+}
+
+.links a:hover {
+    color: #4CAF50; /* Cor dos links ao passar o mouse */
+}
+
+/* Estilos para a página de Experiência Profissional e Formação Acadêmica */
+.container {
+    margin-top: 20px; /* Ajusta o espaçamento superior */
+    margin-left: 20px; /* Ajusta o espaçamento esquerdo */
+    max-width: 800px; /* Define a largura máxima */
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+h2 {
+    margin-top: 30px; /* Ajusta o espaçamento superior */
+    font-size: 1.5em; /* Define o tamanho da fonte */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding-left: 0; /* Remove o preenchimento padrão da lista */
+}
+
+.job-title {
+    font-weight: bold; /* Deixa o título do cargo em negrito */
+    font-size: 1.1em; /* Define o tamanho da fonte */
+}
+
+.date {
+    font-style: italic; /* Define o estilo da data como itálico */
+}
+
+p {
+    margin-bottom: 20px; /* Adiciona espaçamento entre os parágrafos */
+}
+
+/* Estilos para a seção de Educação */
+h2:nth-of-type(2) {
+    margin-top: 40px; /* Ajusta o espaçamento superior */
+}
+
+/* Estilos para a seção de Certificações */
+h2:nth-of-type(3) {
+    margin-top: 40px; /* Ajusta o espaçamento superior */
+}
